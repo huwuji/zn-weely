@@ -19,6 +19,7 @@ echo Agent pid 32677;
 
 
 2.再使用 ssh-add ~/.ssh/id_rsa
+//针对我个人电脑的github的ssh设置是 zn514514.pub
 
 Identity added: /Users/faye/.ssh/id_rsa (/Users/faye/.ssh/id_rsa)
 
