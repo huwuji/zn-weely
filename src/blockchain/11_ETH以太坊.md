@@ -1,0 +1,16 @@
+### 以太坊 ETH
+
+1. 以太坊是基于账户的模式
+ 以太坊是基于账户的模式，支持智能合约。
+ 与btc不同处，
+> btc是基于交易的
+
+2. 以太坊的数据结构简单来说是一个树，
+一颗MPT（Merkle Patricia Tree）树：
+是merkle树和patricia树的结合。MTP树种的节点包含空节点、叶子节点、扩展节点和分支节点。
+>拓展：
+Trie树：又称前缀树或字典树，是一种有序树
+
+Patricia树：Patricia 树，或称 Patricia trie，或 crit bit tree，压缩前缀树，是一种更节省空间的 Trie。对于基数树的每个节点，如果该节点是唯一的儿子的话，就和父节点合并。
+
+Merkle树：也被称为 Hash Tree，中文名称：默克尔树
