@@ -3,6 +3,8 @@
 注意的是设置环境变量
 `
 export PATH="$PATH:'pwd'/flutter/bin"
+//or
+export PATH=`pwd`/flutter/bin:$PATH
 ` 
 >pwd查询flutter SDK的安装路径
 
