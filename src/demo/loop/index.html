@@ -5,12 +5,30 @@
 			button{
 				color: red;
 			}
-			</style>
-		</head>
+		</style>
+		<!-- module 加载 -->
+		<!-- <script type="module" src="./main.js"></script> -->
+
+		<!-- 直接加载 -->
+		<script src="./b.js"></script>
+		<script>
+			function req(){
+				return new Promise((resolve)=>{
+					setTimeout(()=>{
+						console.log('req....');
+						resolve({id:10});
+					},400)
+				})
+			}
+			initController();			
+		</script>
+
+
+	</head>
 	<body>
-	<button type='button' onclick="start(1000)">start</button>
+
+	<button type='button' onclick="start(1000,req)">start</button>
 	<button type='button' onclick="stop()">stop</button>
 
-		<script src="./index.js"></script>
 	</body>
 </html>

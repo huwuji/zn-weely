@@ -1,15 +1,6 @@
 
 
-function req(){
-	return new Promise((resolve)=>{
-		setTimeout(()=>{
-			console.log('req....');
-			resolve({id:10});
-		},400)
-	})
-}
-
-function loop(t){
+function loop(t,callback=function(){}){
 	const isBlock=controller.getStatus().isBlock;
 	if(isBlock){
 		return 'block';
@@ -20,7 +11,7 @@ function loop(t){
 		return 'reqing';
 	}
 	controller.setStatus('isReqing',true);
-	const reqPromiser= req();
+	const reqPromiser= callback();
     reqPromiser
     .then(()=>{
 	    controller.setStatus('isReqing',false);
@@ -33,7 +24,7 @@ function loop(t){
 	let timer=null;
 	timer=setTimeout(()=>{
 		clearTimeout(timer);
-		loop(t);
+		loop(t,callback);
 	},t)
 }
 
@@ -52,7 +43,10 @@ function control(){
 		},
 	}
 }
-const controller=control();
+function initController(){
+	const controller=control();
+	window.controller=controller;
+}
 
 
 function stop(){
@@ -60,8 +54,9 @@ function stop(){
 	controller.setStatus('isBlock',true);
 }
 
-function start(num){
+function start(num,callback){
     console.log('start');
 	controller.setStatus('isBlock',false);
-	loop(num);
+	loop(num,callback);
 }
+
