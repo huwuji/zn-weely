@@ -34,3 +34,18 @@ img.error::after {
 > 涉及js在浏览器运行中的堆与栈的存储，以及垃圾回收机制。注一些我们在写js时要注意的东方，比如使用struct mode，赋值null去释放全局变量等；  
 But也没有深入讲解。比如垃圾回收之标记清除法的目前实现的方式；
 > 看这个更合适  https://v8.dev/blog/trash-talk
+
+5. [不可思议，纯 css 都能图片滚动](https://juejin.cn/post/6895584191073927175)
+> 利用到的css 属性：
+>1) [scroll-snap-type](https://developer.mozilla.org/zh-CN/docs/Web/CSS/scroll-snap-type)   
+>2)[scroll-snap-align](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-align)  
+>3)[scroll-behavior](https://developer.mozilla.org/zh-CN/docs/Web/CSS/scroll-behavior)
+
+6. [chrome 86 新特性](https://developers.google.com/web/updates/2020/10/nic86)
+>重点特性  
+>1)提供访问文件系统的api   
+>2)提供对原始webHID(human interface devices 人体学接口设备)的调用  
+>3)提供对屏时多窗口的调用API   
+>4)提供新的css 选择器：:focus-visible && ::marker
+
+7. [chrome 87](https://developers.google.com/web/updates/2020/11/nic87)
