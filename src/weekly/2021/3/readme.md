@@ -12,4 +12,5 @@ Vite 旨在利用生态系统中的新进展解决上述问题：浏览器开始
 3. [Ryan Dahl 访谈： Node.js/Deno 的创始人](https://mp.weixin.qq.com/s/Ect6ZVAoJ0-i1F8aVeqlcA)
 
 
-???? 4. window api
+4. [聊聊编程范式](https://mp.weixin.qq.com/s/bq9186CQXs8eu8ZsMEuDbA)
+    >技术领域，底层都是想通的，要不断的构建结实的底层，不同的学习总结归纳，不断拓展学习的同时，去收敛所学知识。
