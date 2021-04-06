@@ -12,5 +12,20 @@ Vite 旨在利用生态系统中的新进展解决上述问题：浏览器开始
 3. [Ryan Dahl 访谈： Node.js/Deno 的创始人](https://mp.weixin.qq.com/s/Ect6ZVAoJ0-i1F8aVeqlcA)
 
 
-4. [聊聊编程范式](https://mp.weixin.qq.com/s/bq9186CQXs8eu8ZsMEuDbA)
+4. !!![聊聊编程范式](https://mp.weixin.qq.com/s/bq9186CQXs8eu8ZsMEuDbA)
     >技术领域，底层都是想通的，要不断的构建结实的底层，不同的学习总结归纳，不断拓展学习的同时，去收敛所学知识。
+
+
+5. [requestIdleCallback](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestIdleCallback)
+> 参考：https://juejin.cn/post/6844903592831238157
+
+6. [requestAnimationFrame](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/requestAnimationFrame)
+> 参考：https://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html
+
+> IdleDeadline.timeRemaining:https://developer.mozilla.org/en-US/docs/Web/API/IdleDeadline/timeRemaining
+
+7. [YAML 介绍](https://www.ruanyifeng.com/blog/2016/07/yaml.html)
+
+8. [commit-msg && changelog](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+
+9. [monorepo](https://danluu.com/monorepo/) 
