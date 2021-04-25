@@ -11,3 +11,7 @@
 > 用数学函数的方式去理解
 
 3. [解剖postCSS —— 向前端架构师迈出一小步](https://mp.weixin.qq.com/s/P4Uj9g71u5lDzYi9JaMCow)
+
+4. css 的权重问题
+    参考：https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity
+    选择器的分类和使用：https://www.zoo.team/article/about-css-selector
