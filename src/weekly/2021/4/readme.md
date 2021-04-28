@@ -15,3 +15,7 @@
 4. css 的权重问题
     参考：https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity
     选择器的分类和使用：https://www.zoo.team/article/about-css-selector
+
+5. [所有前端都要看的2D游戏化互动入门基础知识](https://zhuanlan.zhihu.com/p/366660167)
+>Eva.js https://eva-engine.gitee.io/#/
+>最早做过u3d开发，有从u3d应用转化导出对应的web应用。随着基础设施的强大，web普及和浏览器的性能提升，基于浏览器的‘互动游戏’引擎是怎样？值得学习。
