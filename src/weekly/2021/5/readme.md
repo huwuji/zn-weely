@@ -3,3 +3,5 @@
 >可以用来判断元素是否在可视区域
 >可以用来实现无限加载
 >可以用来做惰性加载
+
+个人demo位置: /src/web_demo/intersectionObserver
