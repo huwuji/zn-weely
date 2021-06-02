@@ -5,3 +5,6 @@
 >可以用来做惰性加载
 
 个人demo位置: /src/web_demo/intersectionObserver
+
+2. [大型前端项目内存优化总结](https://mp.weixin.qq.com/s/_wbP0B3EiTjME9Sg3BXqqA)
+> v8对于js 引用类型的处理   
