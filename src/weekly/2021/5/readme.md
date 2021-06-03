@@ -8,3 +8,5 @@
 
 2. [大型前端项目内存优化总结](https://mp.weixin.qq.com/s/_wbP0B3EiTjME9Sg3BXqqA)
 > v8对于js 引用类型的处理   
+
+3. [Objects in v8](https://mp.weixin.qq.com/s/ndThpVWTjAsqayZy14SFIg)
