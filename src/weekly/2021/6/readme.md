@@ -54,3 +54,16 @@
 2.handle 通常只是个整数，实现被隐藏起来，假如直接暴露了指针，也就暴露了指针类型（有时也可以暴露 void* 指针作为某种 handle）。用户看到越多细节，其代码就越有可能依赖这些细节。将来情况有变，但又要兼容用户代码，库内部改起来就更麻烦。   
 3.资源在内部管理，通过 handle 作为中间层，可以有效判断 handle 是否合法，也可以通过权限检查防止某种危险操作。  
 4.handle 通常只是个整数，所有的语言都有整数这种类型，但并非所有语言都有指针。接口只出现整数，方便同一实现绑定到各种语言。
+
+7. [做了这个活动，感觉自己成了垂直排版大师](https://mp.weixin.qq.com/s/d2YZ2K02LYYRVld_VTCV-Q)
+> 快文，记住
+        writing-mode:vertical-rl;(从右到左竖排)
+        text-orientation:upright;(直立向上)
+        text-combine-upright:all;
+对于css属性是慢慢积累的过程。
+
+
+8. [getComputedStyle](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getComputedStyle)
+>let style = window.getComputedStyle(element, [pseudoElt]);
+Window.getComputedStyle()方法返回一个对象，该对象在应用活动样式表并解析这些值可能包含的任何基本计算后报告元素的所有CSS属性的值;
+注意是计算后的值，不同于dom.style（元素上的样式属性值）
