@@ -14,9 +14,82 @@
    或者移除当前的库。
 
    如果我们查看 Lighthouse 生成的报告的 Json 文件，我们可以看到在审计 audits 下会有这样的额报告；
-   如图：
 
-   往下我们继续思考：
+```
+   "no-vulnerable-libraries": {
+   "id": "no-vulnerable-libraries",
+   "title": "Includes front-end JavaScript libraries with known security vulnerabilities",
+   "description": "Some third-party scripts may contain known security vulnerabilities that are easily identified and exploited by attackers. [Learn more](https://web.dev/no-vulnerable-libraries/).",
+   "score": 0,
+   "scoreDisplayMode": "binary",
+   "displayValue": "4 vulnerabilities detected",
+   "details": {
+     "type": "table",
+     "headings": [
+       {
+         "key": "detectedLib",
+         "itemType": "link",
+         "text": "Library Version"
+       },
+       {
+         "key": "vulnCount",
+         "itemType": "text",
+         "text": "Vulnerability Count"
+       },
+       {
+         "key": "highestSeverity",
+         "itemType": "text",
+         "text": "Highest Severity"
+       }
+     ],
+     "items": [
+       {
+         "highestSeverity": "High",
+         "vulnCount": 4,
+         "detectedLib": {
+           "text": "Lo-Dash@4.17.20",
+           "url": "https://snyk.io/vuln/npm:lodash?lh=4.17.20&utm_source=lighthouse&utm_medium=ref&utm_campaign=audit",
+           "type": "link"
+         }
+       }
+     ],
+     "summary": {}
+   }
+
+ },
+  ...
+ "js-libraries": {
+   "id": "js-libraries",
+   "title": "Detected JavaScript libraries",
+   "description": "All front-end JavaScript libraries detected on the page. [Learn more](https://web.dev/js-libraries/).",
+   "score": null,
+   "scoreDisplayMode": "informative",
+   "details": {
+     "type": "table",
+     "headings": [
+       {
+         "key": "name",
+         "itemType": "text",
+         "text": "Name"
+       },
+       {
+         "key": "version",
+         "itemType": "text",
+         "text": "Version"
+       }
+     ],
+     "items": [
+       {
+         "name": "Lo-Dash",
+         "version": "4.17.20",
+         "npm": "lodash"
+       }]
+       }
+     }
+
+```
+
+往下我们继续思考：
 
 2. Lighthouse  
    Lighthouse 是怎么分析出这些有漏洞的库呢？
@@ -117,6 +190,7 @@
   snyk/snapshot.js 格式如下：
 
 ```
+
 {
   "npm": {
       "jquery": [
@@ -181,6 +255,7 @@
       }
     ],
   }
+
 ```
 
 但是：
