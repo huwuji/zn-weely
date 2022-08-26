@@ -193,8 +193,8 @@
 5. 关于 Lighthouse 搜集和审计第三方库的--[Detected JavaScript libraries](https://web.dev/js-libraries/)
 
 首先我们找到 js-libaries 的审计器;(检测出页面所加载的第三方库)
-我们从 Lighthouse 的 report 中可以看到如下图：
-![report js-libraries 信息截图]()
+我们从 Lighthouse 的 report 中可以看到如上述代码展示：
+**[report 中的 audius 的 js-libraries 属性]**
 
 搜[审计器源码](https://github.com/GoogleChrome/lighthouse/blob/ecd10efc8230f6f772e672cd4b05e8fbc8a3112d/lighthouse-core/audits/dobetterweb/js-libraries.js)如下，比较简单，及把 Stacks 搜集器的数据处理输出；
 
