@@ -6,7 +6,6 @@
    在做站点优化的时候，利用 Lighthouse 跟进性能和最佳实践，发现有两个库存在安全漏洞；
    如图：
    ![](https://github.com/huwuji/zn-weekly/blob/master/src/Images/lighthouse-1.png)
-
    对于以上问题，我们处理这个漏洞的方式也简单；
    我们可以直接点击漏洞文件，会进入 snyk 的网站,  
    如：<https://security.snyk.io/package/npm/jquery>
@@ -90,7 +89,7 @@
 
 ```
 
-往下我们继续思考：
+往下我们继续思考
 
 2. Lighthouse  
    Lighthouse 是怎么分析出这些有漏洞的库呢？
