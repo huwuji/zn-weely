@@ -1,0 +1,19 @@
+{
+  "name": "simple-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./lib/test.js",
+    "build": "node ./lib/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/traverse": "^7.18.13",
+    "acorn": "^8.8.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
