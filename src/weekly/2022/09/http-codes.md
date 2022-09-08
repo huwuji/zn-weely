@@ -32,7 +32,7 @@
    - 504 Gateway Timeout 服务器请求处理超时；表示扮演网关或者代理的服务器无法在规定的时间内获得想要的响应；
 
 3. 状态码信息图表
-   ![](../../../Images/page-lifecycle-state.png)
+   ![../../../Images/page-lifecycle-state.png](../../../Images/page-lifecycle-state.png)
 
 > 参考：
 > MDN HTTP:https://developer.mozilla.org/en-US/docs/Web/HTTP
